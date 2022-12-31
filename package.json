@@ -1,0 +1,23 @@
+{
+  "name": "coding-problems",
+  "version": "1.0.0",
+  "description": "practice to solve problems for coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sjbworks/coding-problems.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjbworks/coding-problems/issues"
+  },
+  "homepage": "https://github.com/sjbworks/coding-problems#readme",
+  "devDependencies": {
+    "typescript": "4.9.4"
+  }
+}
