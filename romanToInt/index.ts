@@ -35,3 +35,6 @@ console.log(romanToInt('MMCCCXCIX')) // 2399
 console.log(romanToInt('MDLXX')) // 1570
 console.log(romanToInt('MMMCDXXIX')) // 3429
 console.log(romanToInt('MMMCXXX')) // 3130
+
+// BEST ANSWER
+// https://leetcode.com/problems/roman-to-integer/solutions/2706813/js-hash-table-with-exlanation/?page=2
