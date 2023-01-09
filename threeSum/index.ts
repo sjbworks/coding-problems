@@ -1,4 +1,4 @@
-const threeSum = (nums: number[]): number[][] => {
+export const threeSum = (nums: number[]): number[][] => {
   if (nums.length < 3) return []
   nums.sort((a, b) => a - b)
   let result: number[][] = []
@@ -38,7 +38,7 @@ const threeSum = (nums: number[]): number[][] => {
 
 // wrong example
 
-const wrongThreeSum = (nums: number[]): number[][] => {
+export const wrongThreeSum = (nums: number[]): number[][] => {
   if (nums.length < 3) return []
   nums.sort((a, b) => a - b)
   let result: number[][] = []
