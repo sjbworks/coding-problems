@@ -22,3 +22,31 @@ const twoDimensionalSum = (args: string) => {
 }
 
 twoDimensionalSum(require('fs').readFileSync('/dev/stdin', 'utf8'))
+
+const twoDimensionalSumTest = (args: string) => {
+  const input = args.trim().split('\n')
+  const [h, w] = input[0]
+  let arrayX: number[][] = []
+  for (let i = 0; i < Number(w); i++) {
+    const tmp = input[i + 1].split(' ').map(Number)
+    arrayX.push(tmp)
+  }
+  const [q] = input[Number(w) + 1]
+  let arrayQ: number[][] = []
+  for (let i = 0; i < Number(w); i++) {
+    const tmp = input[i + 1].split(' ').map(Number)
+    arrayQ.push(tmp)
+  }
+  // let tmp = 0
+  // const audience = a.map((e, i) => {
+  //   tmp += Number(e)
+  //   return tmp
+  // })
+
+  // for (let i = 0; i < l.length; i++) {
+  //   const right = Number(l[i][0]) - 2 < 0 ? 0 : audience[Number(l[i][0]) - 2]
+  //   console.log(audience[Number(l[i][1]) - 1] - right)
+  // }
+}
+
+howManyGuests(require('fs').readFileSync('/dev/stdin', 'utf8'))
